@@ -2,7 +2,7 @@ import { education } from "../../data/portfolio"
 
 export default function Education() {
   return (
-    <section className="py-16" id="education">
+    <section className="py-10 md:py-16" id="education">
       <div className="container mx-auto max-w-6xl px-6">
         <h2 className="text-2xl font-semibold mb-6">Formação</h2>
         <div className="space-y-4">

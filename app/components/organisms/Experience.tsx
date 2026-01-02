@@ -2,7 +2,7 @@ import { experiences } from "../../data/portfolio"
 
 export default function Experience() {
   return (
-    <section className="py-16" id="experience">
+    <section className="py-10 md:py-16" id="experience">
       <div className="container mx-auto max-w-6xl px-6">
         <h2 className="text-2xl font-semibold mb-6">Experiência</h2>
         <div className="space-y-6">

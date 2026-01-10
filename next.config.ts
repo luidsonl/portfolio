@@ -11,6 +11,9 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
   },
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 module.exports = nextConfig;

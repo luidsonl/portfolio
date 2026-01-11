@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import getDictionary from "@/i18n/getDictionary";
 
 const geistSans = Geist({
@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const t = getDictionary('pt')
+const t = getDictionary('en')
 
 export const metadata: Metadata = {
   title: t("meta.title"),

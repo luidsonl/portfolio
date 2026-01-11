@@ -1,14 +1,45 @@
 import ProjectCard from "../molecules/ProjectCard"
-import { projects } from "../../data/portfolio"
+import { TranslationFunction } from "@/types/translations";
 
-export default function Projects() {
+type Props = {
+  t: TranslationFunction;
+}
+
+export default function Projects({t}: Props) {
+  const projects = [
+      {
+          title: t("projects.websocketChat.title"),
+          description: t("projects.websocketChat.description"),
+          tech: ["React", "WebSocket", "Node.js"],
+          href: "https://github.com/luidsonl/websocket-chat",
+      },
+      {
+          title: t("projects.laravelForum.title"),
+          description: t("projects.laravelForum.description"),
+          tech: ["Laravel", "MySQL", "Bootstrap"],
+          href: "https://github.com/luidsonl/Forum-Laravel",
+      },
+      {
+          title: t("projects.organizagro.title"),
+          description: t("projects.organizagro.description"),
+          tech: ["Flutter", "Dart"],
+          href: "https://github.com/luidsonl/organizagro",
+      },
+      {
+          title: t("projects.tkinterAgenda.title"),
+          description: t("projects.tkinterAgenda.description"),
+          tech: ["Python", "Arquitetura MVC", "SQLite", "Matplotlib"],
+          href: "https://github.com/luidsonl/agenda-tkinter-mvc",
+      },
+  ];
+
   return (
     <section className="py-10 md:py-16" id="projects">
       <div className="container mx-auto max-w-6xl px-6">
-        <h2 className="text-2xl font-semibold mb-6">Projetos pessoais</h2>
+        <h2 className="text-2xl font-semibold mb-6">{t('projects.heading')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((p) => (
-            <ProjectCard key={p.title} project={p} />
+            <ProjectCard key={p.title} project={p}/>
           ))}
         </div>
       </div>

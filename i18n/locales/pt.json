@@ -1,0 +1,83 @@
+{
+    "common": {
+        "seeProject": "Ver projeto",
+        "seeMore": "Ver mais",
+        "getInTouch": "Entrar em contato"
+    },
+
+    "meta": {
+        "title": "Luidson Lima Santos - Desenvolvedor Full-Stack",
+        "description": "Desenvolvedor Full-Stack | Node.js, Next.js, PHP, Laravel"
+    },
+  
+    "hero": {
+        "greeting": "Olá, me chamo",
+        "name": "Luidson",
+        "subtitle": "Soluciono problemas usando código.",
+        "description": "Desenvolvedor Full-Stack com experiência em Node.js, Next.js, PHP, Laravel, criação e manutenção de temas para Wordpress e Shopify.",
+        "cta": {
+        "projects": "Ver Projetos",
+        "contact": "Entrar em Contato"
+        }
+    },
+    "experiences": {
+        "heading": "Experiência",
+        "kyraly": {
+            "role": "Desenvolvedor",
+            "company": "Kyraly Beyond Marketing", 
+            "period": "Jul de 2023 - Atualmente",
+            "description": "Atuo como desenvolvedor Full-Stack, focando na manutenção de temas para plataformas como Shopify, VTEX e WordPress, além de otimização de SEO e desempenho web.",
+            "bulletPoints": {
+                "shopifyDev": "Desenvolvimento e manutenção de funcionalidades em Shopify e WordPress, com foco em otimização de SEO e aumento da taxa de conversão (CRO).",
+                "performance": "Análise e otimização dos Core Web Vitals em diversos sites, promovendo melhorias gerais de desempenho. Como destaque, em uma página de categoria de um e-commerce, o LCP foi reduzido de 21,3 s para 3,6 s por meio da priorização inteligente do carregamento de imagens e ajustes de performance.",
+                "automation": "Criação de automações em Python, utilizando Selenium e Pandas para gerenciamento e atualização de conteúdo.",
+                "wordpress": "Implementação de funcionalidades gerenciáveis em temas WordPress, com PHP e integração de Advanced Custom Fields (ACF).",
+                "shopifyCustom": "Desenvolvimento e customização de temas nativos Shopify com Liquid, adicionando novas funcionalidades e controles à interface de personalização.",
+                "seoOptimization": "Manutenção e otimização de SEO e CRO em plataformas como Next.js, Laravel e VTEX, integradas ao WordPress via REST API ou GraphQL."
+            }
+        }
+    },
+
+    "projects": {
+        "heading": "Projetos Pessoais",
+        "websocketChat": {
+            "title": "Chat com websocket",
+            "description": "App de salas de chat em tempo real usando React.js e WebSocket."
+        },
+        "laravelForum": {
+            "title": "Forum de discussões - supports",
+            "description": "Plataforma feita com laravel para discussões em tópicos variados."
+        },
+        "organizagro": {
+            "title": "App Mobile - Organizagro",
+            "description": "Aplicação móvel desenvolvida em flutter com o objetivo de auxiliar pequenos agricultores na gestão de suas atividades diárias."
+        },
+        "tkinterAgenda": {
+            "title": "Agenda TKinter",
+            "description": "Aplicativo desktop simples de agenda odongológica desenvolvido com Python e Tkinter."
+        }
+    },
+
+    "education": {
+        "heading": "Formação Acadêmica",
+        "dataScience": {
+            "degree": "Bacharel em Ciência de Dados",
+            "institution": "XP Educação",
+            "period": "2022 - 2026 (em andamento)"
+        },
+        "systemsAnalysis": {
+            "degree": "Análise e Desenvolvimento de Sistemas",
+            "institution": "Uninter",
+            "period": "2022 - 2024"
+        }
+    },
+
+    "contact": {
+        "heading": "Contato",
+        "sendEmail": "Me envie um e-mail"
+    },
+
+    "footer":{
+        "copyright": "Luidson Lima Santos — Feito com Next.js e Tailwind"
+    }
+}

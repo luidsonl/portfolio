@@ -1,10 +1,17 @@
+import { TranslationFunction } from "@/types/translations";
 import SocialLinks from "../molecules/SocialLinks"
 
-export default function Contact() {
+type Props = {
+  t: TranslationFunction;
+}
+
+export default function Contact({t}: Props) {
+
+
   return (
     <section className="py-10 md:py-16" id="contact">
       <div className="container mx-auto max-w-6xl px-6">
-        <h2 className="text-2xl font-semibold mb-6">Contato</h2>
+        <h2 className="text-2xl font-semibold mb-6">{t('contact.heading')}</h2>
 
         <div className="
           flex
@@ -15,7 +22,7 @@ export default function Contact() {
           md:justify-between
         ">
           <div className="text-sm text-slate-700 dark:text-slate-300">
-            Me mande um e-mail:{" "}
+            {t('contact.sendEmail')}{" "}
             <a
               className="text-sky-600 hover:underline"
               href="mailto:luidsonlsti@gmail.com"

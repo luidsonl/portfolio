@@ -8,6 +8,7 @@ type Project = {
   href?: string
 }
 
+
 export default function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="border border-slate-200 dark:border-slate-700 rounded-md p-4 hover:shadow-sm transition bg-white dark:bg-slate-900/40">
@@ -19,7 +20,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         ))}
       </div>
       {project.href && (
-        <a href={project.href} className="text-sm text-sky-600 hover:underline mt-3 inline-block">Ver projeto</a>
+        <a href={project.href} className="text-sm text-sky-600 hover:underline mt-3 inline-block">github</a>
       )}
     </article>
   )

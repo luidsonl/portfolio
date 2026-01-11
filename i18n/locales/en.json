@@ -1,0 +1,84 @@
+{
+  "common": {
+    "seeProject": "View project",
+    "seeMore": "See more",
+    "getInTouch": "Get in touch"
+  },
+
+  "meta": {
+    "title": "Luidson Lima Santos - Full Stack Developer",
+    "description": "Full Stack Developer | Node.js, Next.js, PHP, Laravel"
+  },
+
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Luidson",
+    "subtitle": "I solve problems using code.",
+    "description": "Full Stack Developer with experience in Node.js, Next.js, PHP, Laravel, creating and maintaining themes for WordPress and Shopify.",
+    "cta": {
+      "projects": "View Projects",
+      "contact": "Get in Touch"
+    }
+  },
+
+  "experiences": {
+    "heading": "Experience",
+    "kyraly": {
+      "role": "Developer",
+      "company": "Kyraly Beyond Marketing",
+      "period": "Jul 2023 - Present",
+      "description": "I work as a Full-Stack Developer, focusing on theme maintenance for platforms like Shopify, VTEX, and WordPress, as well as SEO and web performance optimization.",
+      "bulletPoints": {
+        "shopifyDev": "Development and maintenance of Shopify and WordPress features, focusing on SEO optimization and conversion rate increase (CRO).",
+        "performance": "Analysis and optimization of Core Web Vitals on various websites, promoting overall performance improvements. As a highlight, on an e-commerce category page, LCP was reduced from 21.3s to 3.6s through intelligent image loading prioritization and performance adjustments.",
+        "automation": "Creation of Python automations using Selenium and Pandas for content management and updating.",
+        "wordpress": "Implementation of manageable features in WordPress themes, with PHP and Advanced Custom Fields (ACF) integration.",
+        "shopifyCustom": "Development and customization of native Shopify themes with Liquid, adding new features and controls to the customization interface.",
+        "seoOptimization": "Maintenance and optimization of SEO and CRO on platforms like Next.js, Laravel, and VTEX, integrated with WordPress via REST API or GraphQL."
+      }
+    }
+  },
+
+  "projects": {
+    "heading": "Personal Projects",
+    "websocketChat": {
+      "title": "WebSocket Chat",
+      "description": "Real-time chat rooms application using React.js and WebSocket."
+    },
+    "laravelForum": {
+      "title": "Discussion Forum - Supports",
+      "description": "Platform built with Laravel for discussions on various topics."
+    },
+    "organizagro": {
+      "title": "Mobile App - Organizagro",
+      "description": "Mobile application developed in Flutter to help small farmers manage their daily activities."
+    },
+    "tkinterAgenda": {
+      "title": "TKinter Agenda",
+      "description": "Simple desktop application for dental appointment scheduling developed with Python and Tkinter."
+    }
+  },
+
+  "education": {
+    "heading": "Education",
+    "dataScience": {
+      "degree": "Bachelor's in Data Science",
+      "institution": "XP Educação",
+      "period": "2022 - 2026 (in progress)"
+    },
+    "systemsAnalysis": {
+      "degree": "Systems Analysis and Development",
+      "institution": "Uninter",
+      "period": "2022 - 2024"
+    }
+  },
+
+  "contact": {
+    "heading": "Contact",
+    "sendEmail": "Send me an email"
+  },
+
+  "footer": {
+    "copyright": "Luidson Lima Santos — Built with Next.js and Tailwind"
+  }
+}

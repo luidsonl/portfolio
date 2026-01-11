@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import getDictionary from "@/i18n/getDictionary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,12 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const t = getDictionary('pt')
 
 export const metadata: Metadata = {
-  title: t("meta.title"),
-  description: t("meta.description"),
+  title: "Luidson Lima Santos - Desenvolvedor Full-Stack",
+  description: "Desenvolvedor Full-Stack | Node.js, Next.js, PHP, Laravel",
 };
+
 
 export default function RootLayout({
   children,

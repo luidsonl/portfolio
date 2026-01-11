@@ -5,10 +5,6 @@
     "getInTouch": "Get in touch"
   },
 
-  "meta": {
-    "title": "Luidson Lima Santos - Full Stack Developer",
-    "description": "Full Stack Developer | Node.js, Next.js, PHP, Laravel"
-  },
 
   "hero": {
     "greeting": "Hello, I'm",

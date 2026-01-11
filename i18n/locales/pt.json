@@ -4,11 +4,6 @@
         "seeMore": "Ver mais",
         "getInTouch": "Entrar em contato"
     },
-
-    "meta": {
-        "title": "Luidson Lima Santos - Desenvolvedor Full-Stack",
-        "description": "Desenvolvedor Full-Stack | Node.js, Next.js, PHP, Laravel"
-    },
   
     "hero": {
         "greeting": "Olá, me chamo",

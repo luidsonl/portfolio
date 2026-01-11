@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import getDictionary from "@/i18n/getDictionary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,25 +12,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const t = getDictionary('en')
 
 export const metadata: Metadata = {
-  title: t("meta.title"),
-  description: t("meta.description"),
+  title: "Luidson Lima Santos - Full Stack Developer",
+  description: "Full Stack Developer | Node.js, Next.js, PHP, Laravel",
 };
 
-export default function RootLayout({
+export default function LocaleLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="pt-BR">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+  return <>{children}</>;
 }

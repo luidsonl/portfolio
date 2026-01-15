@@ -37,6 +37,11 @@
 
   "projects": {
     "heading": "Personal Projects",
+    "urlShortenerLaravel": {
+      "title": "URL Shortener with Laravel",
+      "description": "URL shortening system with user authentication, access level management, email verification, cache usage, and efficient redirect counting."
+    },
+
     "websocketChat": {
       "title": "WebSocket Chat",
       "description": "Real-time chat rooms application using React.js and WebSocket."

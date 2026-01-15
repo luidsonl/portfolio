@@ -35,6 +35,10 @@
 
     "projects": {
         "heading": "Projetos Pessoais",
+        "urlShortenerLaravel": {
+            "title": "Encurtador de Links com Laravel",
+            "description": "Sistema de encurtamento de URLs com autenticação de usuários, níveis de acesso, verificação de e-mail, uso de cache e contagem eficiente de redirecionamentos."
+        },
         "websocketChat": {
             "title": "Chat com websocket",
             "description": "App de salas de chat em tempo real usando React.js e WebSocket."

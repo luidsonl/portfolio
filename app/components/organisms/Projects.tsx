@@ -10,7 +10,7 @@ export default function Projects({t}: Props) {
     {
       title: t("projects.urlShortenerLaravel.title"),
       description: t("projects.urlShortenerLaravel.description"),
-      tech: ["Laravel", "Redis", "PostgreSQL"],
+      tech: ["Laravel", "Redis", "PostgreSQL", "PHPUnit"],
       href: "https://github.com/luidsonl/url-shortener-laravel-vue",
     },
     {

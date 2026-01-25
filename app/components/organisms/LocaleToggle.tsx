@@ -27,7 +27,7 @@ export default function LanguageToggleWithIcons() {
       }
     }
     
-    router.push(newPath);
+    router.replace(newPath);
   };
 
   return (

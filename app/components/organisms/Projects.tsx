@@ -11,31 +11,38 @@ export default function Projects({t}: Props) {
       title: t("projects.urlShortenerLaravel.title"),
       description: t("projects.urlShortenerLaravel.description"),
       tech: ["Laravel", "Redis", "PostgreSQL", "PHPUnit"],
-      href: "https://github.com/luidsonl/url-shortener-laravel-vue",
+      github: "https://github.com/luidsonl/url-shortener-laravel-vue",
     },
     {
       title: t("projects.websocketChat.title"),
       description: t("projects.websocketChat.description"),
       tech: ["React", "WebSocket", "Node.js"],
-      href: "https://github.com/luidsonl/websocket-chat",
+      github: "https://github.com/luidsonl/websocket-chat",
     },
     {
       title: t("projects.laravelForum.title"),
       description: t("projects.laravelForum.description"),
       tech: ["Laravel", "MySQL", "Bootstrap"],
-      href: "https://github.com/luidsonl/Forum-Laravel",
+      github: "https://github.com/luidsonl/Forum-Laravel",
     },
     {
       title: t("projects.organizagro.title"),
       description: t("projects.organizagro.description"),
       tech: ["Flutter", "Dart"],
-      href: "https://github.com/luidsonl/organizagro",
+      github: "https://github.com/luidsonl/organizagro",
     },
     {
       title: t("projects.tkinterAgenda.title"),
       description: t("projects.tkinterAgenda.description"),
       tech: ["Python", "Arquitetura MVC", "SQLite", "Matplotlib"],
-      href: "https://github.com/luidsonl/agenda-tkinter-mvc",
+      github: "https://github.com/luidsonl/agenda-tkinter-mvc",
+    },
+    {
+      title: t("projects.wordGuessing.title"),
+      description: t("projects.wordGuessing.description"),
+      tech: ["Vue.js", "Tailwind.css", "Pinia"],
+      github: "https://github.com/luidsonl/wordguessing-vue",
+      deploy: 'https://luidsonl.github.io/wordguessing-vue/'
     },
   ];
 

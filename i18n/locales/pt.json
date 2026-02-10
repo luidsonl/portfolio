@@ -54,6 +54,10 @@
         "tkinterAgenda": {
             "title": "Agenda TKinter",
             "description": "Aplicativo desktop simples de agenda odongológica desenvolvido com Python e Tkinter."
+        },
+        "wordGuessing": {
+            "title": "Jogo de adivinhação de palavras",
+            "description": "Jogo semelhante ao wordle que consome https://www.datamuse.com/api/"
         }
     },
 

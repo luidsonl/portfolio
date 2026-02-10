@@ -5,7 +5,8 @@ type Project = {
   title: string
   description: string
   tech: string[]
-  href?: string
+  github?: string
+  deploy?: string
 }
 
 
@@ -19,9 +20,16 @@ export default function ProjectCard({ project }: { project: Project }) {
           <Badge key={t}>{t}</Badge>
         ))}
       </div>
-      {project.href && (
-        <a href={project.href} className="text-sm text-sky-600 hover:underline mt-3 inline-block">github</a>
-      )}
+      <div className="flex gap-3">
+        {project.github && (
+          <a href={project.github} className="text-sm text-sky-600 hover:underline mt-3 inline-block">github</a>
+        )}
+        {project.deploy && (
+          <a href={project.deploy} className="text-sm text-sky-600 hover:underline mt-3 inline-block" target="blank">deploy</a>
+        )}
+      </div>
+      
+      
     </article>
   )
 }

@@ -57,6 +57,10 @@
     "tkinterAgenda": {
       "title": "TKinter Agenda",
       "description": "Simple desktop application for dental appointment scheduling developed with Python and Tkinter."
+    },
+    "wordGuessing": {
+      "title": "Word Guessing Game",
+      "description": "A Wordle-like game that consumes https://www.datamuse.com/api/"
     }
   },
 

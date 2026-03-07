@@ -6,7 +6,6 @@ type Props = {
 }
 
 export default function Hero({t}: Props) {
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH;
   return (
     <header className="py-10 md:py-20">
       <div className="container mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center md:gap-8">
@@ -21,7 +20,7 @@ export default function Hero({t}: Props) {
             </div>
         </div>
         <div className="w-40 md:w-48">
-          <Avatar src={`${basePath}/avatar.png`} alt="Luidson" size={192} />
+          <Avatar src={`avatar.png`} alt="Luidson" size={192} />
         </div>
       </div>
     </header>

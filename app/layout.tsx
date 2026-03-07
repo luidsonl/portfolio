@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Desenvolvedor Full-Stack | Node.js, Next.js, PHP, Laravel",
 
   verification: {
-    google: "tb2ErqgEeTKaRqlHB-1d0wn2evE1dUDKs1oK0EMNwYg",
+    google: "LFWW5_Q9YkGKqJ5b9BNMfvXshaTZZd9Fj4cUm8kEjQU",
   },
 
   alternates: {

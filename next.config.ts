@@ -1,11 +1,8 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
 
-const nextConfig: import("next").NextConfig = {
-  output: "export",
+const nextConfig: NextConfig = {
+  output: process.env.NODE_ENV === "production" ? "export" : undefined,
   images: { unoptimized: true },
-  turbopack: {
-    root: __dirname,
-  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

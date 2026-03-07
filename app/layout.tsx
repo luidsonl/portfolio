@@ -12,21 +12,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "Luidson Lima Santos - Desenvolvedor Full-Stack",
   description: "Desenvolvedor Full-Stack | Node.js, Next.js, PHP, Laravel",
+
   verification: {
     google: "tb2ErqgEeTKaRqlHB-1d0wn2evE1dUDKs1oK0EMNwYg",
   },
-};
 
+  alternates: {
+    languages: {
+      "pt-BR": "https://luidsonl.github.io/",
+      "en": "https://luidsonl.github.io/en",
+      "x-default": "https://luidsonl.github.io/",
+    },
+  },
+};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="pt-BR">
       <body

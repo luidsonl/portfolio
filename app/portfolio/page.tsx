@@ -4,8 +4,7 @@ import { useEffect } from "react";
 
 export default function RedirectPortfolio() {
   useEffect(() => {
-    const newPath = window.location.pathname.replace(/^\/portfolio/, "");
-    window.location.replace(newPath || "/");
+    window.location.replace("/");
   }, []);
 
   return <p>Redirecting...</p>;

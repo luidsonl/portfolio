@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
-const nextConfig = {
+const nextConfig: import('next').NextConfig = {
   output: 'export',
-  basePath,
-  assetPrefix: `${basePath}/`,
   images: { unoptimized: true },
-  env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
-  },
   turbopack: {
     root: __dirname,
   },

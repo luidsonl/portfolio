@@ -1,1 +1,5 @@
-export type { TranslationFunction, TranslationKeys, Locale } from '../i18n/getDictionary';
+export type {
+  TranslationFunction,
+  TranslationKeys,
+  Locale,
+} from "../i18n/getDictionary";

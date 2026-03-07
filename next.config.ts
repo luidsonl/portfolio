@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 
-
-const nextConfig: import('next').NextConfig = {
-  output: 'export',
+const nextConfig: import("next").NextConfig = {
+  output: "export",
   images: { unoptimized: true },
   turbopack: {
     root: __dirname,

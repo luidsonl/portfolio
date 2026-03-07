@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   alternates: {
     languages: {
       "pt-BR": "https://luidsonl.github.io/",
-      "en": "https://luidsonl.github.io/en",
+      en: "https://luidsonl.github.io/en",
       "x-default": "https://luidsonl.github.io/",
-    }
-  }
+    },
+  },
 };
 
 export default function LocaleLayout({

@@ -18,6 +18,7 @@ export default function Projects({ t }: Props) {
       description: t("projects.websocketChat.description"),
       tech: ["React", "WebSocket", "Node.js"],
       github: "https://github.com/luidsonl/websocket-chat",
+      deploy: "https://websocket-chat-nd6r.onrender.com/",
     },
     {
       title: t("projects.laravelForum.title"),
@@ -34,7 +35,7 @@ export default function Projects({ t }: Props) {
     {
       title: t("projects.tkinterAgenda.title"),
       description: t("projects.tkinterAgenda.description"),
-      tech: ["Python", "Arquitetura MVC", "SQLite", "Matplotlib"],
+      tech: ["Python", "MVC", "SQLite", "Matplotlib"],
       github: "https://github.com/luidsonl/agenda-tkinter-mvc",
     },
     {

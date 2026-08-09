@@ -45,17 +45,25 @@
       "title": "WebSocket Chat",
       "description": "Real-time chat rooms application using React.js and WebSocket."
     },
-    "laravelForum": {
-      "title": "Discussion Forum - Supports",
-      "description": "Platform built with Laravel for discussions on various topics."
+    "blog": {
+      "title": "Blog",
+      "description": "Personal multilingual blog (pt-BR and en-US) built with Hugo and a custom theme, with posts about development and technology."
+    },
+    "gitRewriter": {
+      "title": "Git Rewriter",
+      "description": "Desktop GUI for safely rewriting Git history metadata — author identity, timestamps, timezones, and commit messages. Built with Tauri v2 and React."
+    },
+    "zeroShared": {
+      "title": "0shared",
+      "description": "Serverless file-sharing platform deployed directly on AWS, with direct uploads via S3 pre-signed URLs, a Lambda/API Gateway backend, and a React interface."
+    },
+    "handwrittenCharacterRecognition": {
+      "title": "Handwritten Character Recognition",
+      "description": "Handwritten character recognition system using a Convolutional Neural Network (CNN) trained on the EMNIST dataset, with a web interface for real-time prediction."
     },
     "organizagro": {
       "title": "Mobile App - Organizagro",
       "description": "Mobile application developed in Flutter to help small farmers manage their daily activities."
-    },
-    "tkinterAgenda": {
-      "title": "TKinter Agenda",
-      "description": "Simple desktop application for dental appointment scheduling developed with Python and Tkinter."
     },
     "wordGuessing": {
       "title": "Word Guessing Game",

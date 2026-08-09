@@ -43,17 +43,25 @@
       "title": "Chat com websocket",
       "description": "App de salas de chat em tempo real usando React.js e WebSocket."
     },
-    "laravelForum": {
-      "title": "Forum de discussões - supports",
-      "description": "Plataforma feita com laravel para discussões em tópicos variados."
+    "blog": {
+      "title": "Blog",
+      "description": "Blog pessoal multilíngue (pt-BR e en-US) construído com Hugo e tema customizado, com posts sobre desenvolvimento e tecnologia."
+    },
+    "gitRewriter": {
+      "title": "Git Rewriter",
+      "description": "Aplicativo desktop para reescrever com segurança metadados do histórico do Git (identidade de autor, datas, fusos horários e mensagens de commit), construído com Tauri v2 e React."
+    },
+    "zeroShared": {
+      "title": "0shared",
+      "description": "Plataforma serverless de compartilhamento de arquivos implantada diretamente na AWS, com uploads diretos via URLs pré-assinadas (S3), backend em Lambda/API Gateway e interface em React."
+    },
+    "handwrittenCharacterRecognition": {
+      "title": "Reconhecimento de Caracteres Manuscritos",
+      "description": "Sistema de reconhecimento de caracteres manuscritos com Rede Neural Convolucional (CNN) treinada sobre o dataset EMNIST, com interface web para predição em tempo real."
     },
     "organizagro": {
       "title": "App Mobile - Organizagro",
       "description": "Aplicação móvel desenvolvida em flutter com o objetivo de auxiliar pequenos agricultores na gestão de suas atividades diárias."
-    },
-    "tkinterAgenda": {
-      "title": "Agenda TKinter",
-      "description": "Aplicativo desktop simples de agenda odongológica desenvolvido com Python e Tkinter."
     },
     "wordGuessing": {
       "title": "Jogo de adivinhação de palavras",

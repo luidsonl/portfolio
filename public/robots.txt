@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://luidsonl.github.io/sitemap.xml
+Sitemap: https://luidsonl.github.io/blog/sitemap.xml

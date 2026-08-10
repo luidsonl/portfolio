@@ -22,6 +22,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: "https://luidsonl.github.io/en",
       lastModified: new Date().toISOString(),
     },
+    {
+      url: "https://luidsonl.github.io/blog/sitemap.xml",
+      lastModified: new Date().toISOString(),
+    },
     ...pages,
   ];
 }

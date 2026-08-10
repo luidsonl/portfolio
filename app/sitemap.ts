@@ -3,8 +3,16 @@ import { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const res = await fetch("https://api.github.com/users/luidsonl/repos");
-  const repos = await res.json();
+  const repos: any[] = [];
+
+  for (let page = 1; ; page++) {
+    const res = await fetch(
+      `https://api.github.com/users/luidsonl/repos?per_page=100&page=${page}`
+    );
+    const data = await res.json();
+    repos.push(...data);
+    if (!res.ok || data.length < 100) break;
+  }
 
   const projects = repos.filter((r: any) => r.has_pages && r.name !== "luidsonl.github.io");
 

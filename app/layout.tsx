@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Luidson Lima Santos - Desenvolvedor Full-Stack",
-  description: "Desenvolvedor Full-Stack | Node.js, Next.js, PHP, Laravel",
+  description: "Desenvolvedor Full-Stack | Node.js, Python, PHP, Next.js, Laravel, AWS, Terraform",
 
   verification: {
     google: "tb2ErqgEeTKaRqlHB-1d0wn2evE1dUDKs1oK0EMNwYg",
